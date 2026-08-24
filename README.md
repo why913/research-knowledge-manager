@@ -70,7 +70,7 @@ cp -r research-knowledge-manager ~/.agents/skills/
 If you already use [vercel-labs/skills](https://github.com/vercel-labs/skills):
 `npx skills add why913/research-knowledge-manager`. That installer tracks vendor path changes
 across 50+ targets, which the bundled script does not — but the bundled script is what this repo
-tests against.
+tests against. Note it has no `workbuddy` target, so WorkBuddy users need the bundled script.
 
 ## Where it installs
 
@@ -85,6 +85,7 @@ User-scope paths, checked against each vendor's docs in August 2026.
 | `gemini` | Gemini CLI 0.26+ | `~/.gemini/skills/` |
 | `copilot` | GitHub Copilot | `~/.copilot/skills/` |
 | `codebuddy` | CodeBuddy | `~/.codebuddy/skills/` |
+| `workbuddy` | WorkBuddy | `~/.workbuddy/skills/` |
 | `opencode` | OpenCode | `~/.config/opencode/skills/` |
 | `windsurf` | Windsurf | `~/.codeium/windsurf/skills/` |
 | `cline` | Cline | `~/.cline/skills/` |
