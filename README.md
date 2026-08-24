@@ -4,7 +4,7 @@ An [Agent Skill](https://agentskills.io) that turns research material into a dur
 evidence-linked knowledge base of atomic notes — instead of a folder of summaries nobody reads
 twice.
 
-Vendor-neutral: one `SKILL.md`, installable into ~18 coding agents.
+Vendor-neutral: one `SKILL.md`, installable into ~19 coding agents.
 
 *[中文说明在下方](#中文说明)*
 
@@ -84,6 +84,7 @@ User-scope paths, checked against each vendor's docs in August 2026.
 | `cursor` | Cursor 2.4+ | `~/.cursor/skills/` |
 | `gemini` | Gemini CLI 0.26+ | `~/.gemini/skills/` |
 | `copilot` | GitHub Copilot | `~/.copilot/skills/` |
+| `codebuddy` | CodeBuddy | `~/.codebuddy/skills/` |
 | `opencode` | OpenCode | `~/.config/opencode/skills/` |
 | `windsurf` | Windsurf | `~/.codeium/windsurf/skills/` |
 | `cline` | Cline | `~/.cline/skills/` |
@@ -156,7 +157,7 @@ MIT
 ## 中文说明
 
 一个把科研资料变成**长期可用、证据可追溯的原子笔记库**的 Agent Skill。不绑定任何厂商，一份
-`SKILL.md` 可装进约 18 种 AI 编程助手。
+`SKILL.md` 可装进约 19 种 AI 编程助手。
 
 ### 它解决什么
 
